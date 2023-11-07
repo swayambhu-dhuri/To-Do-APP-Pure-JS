@@ -97,7 +97,7 @@ function createTaskCard(categories, taskMsg, status, date, keys, id) {
 
       xhr.open(
         "PATCH",
-        "https://todo-app-edyoda-default-rtdb.firebaseio.com/todo-tasks/" +
+        "https://todo-new-79d1f-default-rtdb.firebaseio.com/todo-tasks/" +
           keys +
           ".json",
         true
@@ -122,7 +122,7 @@ function createTaskCard(categories, taskMsg, status, date, keys, id) {
 
       xhr.open(
         "PATCH",
-        "https://todo-app-edyoda-default-rtdb.firebaseio.com/todo-tasks/" +
+        "https://todo-new-79d1f-default-rtdb.firebaseio.com/todo-tasks/" +
           keys +
           ".json",
         true
@@ -171,7 +171,7 @@ function createTaskCard(categories, taskMsg, status, date, keys, id) {
 
       xhr.open(
         "DELETE",
-        "https://todo-app-edyoda-default-rtdb.firebaseio.com/todo-tasks/" +
+        "https://todo-new-79d1f-default-rtdb.firebaseio.com/todo-tasks/" +
           keys +
           ".json",
         true
@@ -221,7 +221,7 @@ function createTaskCard(categories, taskMsg, status, date, keys, id) {
 
         xhr.open(
           "PATCH",
-          "https://todo-app-edyoda-default-rtdb.firebaseio.com/todo-tasks/" +
+          "https://todo-new-79d1f-default-rtdb.firebaseio.com/todo-tasks/" +
             keys +
             ".json",
           true
@@ -272,7 +272,7 @@ function saveData() {
 
   xhr.open(
     "POST",
-    "https://todo-app-edyoda-default-rtdb.firebaseio.com/todo-tasks.json",
+    "https://todo-new-79d1f-default-rtdb.firebaseio.com/todo-tasks.json",
     true
   );
 
@@ -302,7 +302,7 @@ function getData() {
 
   xhr.open(
     "GET",
-    "https://todo-app-edyoda-default-rtdb.firebaseio.com/todo-tasks.json",
+    "https://todo-new-79d1f-default-rtdb.firebaseio.com/todo-tasks.json",
     true
   );
 
@@ -360,7 +360,7 @@ function countTasks() {
 
   xhr.open(
     "GET",
-    "https://todo-app-edyoda-default-rtdb.firebaseio.com/todo-tasks.json",
+    "https://todo-new-79d1f-default-rtdb.firebaseio.com/todo-tasks.json",
     true
   );
 
